@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+    jobs:
+      my_job:
+        name: setup
+        runs-on: ubuntu-latest
+        name: dependedenciesd
+        run: npm i
+        name: start
+        run: npm run start
